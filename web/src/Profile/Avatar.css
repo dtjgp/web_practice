@@ -1,0 +1,15 @@
+.Avatar {
+    max-width:100%;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+    padding-top: 100%;
+
+    background-image: url("picture.jpg");
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+:root{
+    --primary: #4d91fe;
+    --grey: #f7f7f7;
+    --white: #ffffff;
+
+    --xs: 4px;
+    --s: 8px;
+    --m: 16px;
+    --l: 24px;
+}
+
+.AvatarContainer{
+    padding: 0 20%;
+}
+
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.u-textCenter{
+    text-align: center;
+}
+
+.navContainer{
+    background-color: var(--primary);
+    padding: var(--s) var(--m);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Profile-Container{
+    max-width: 960px;
+    padding: var(--m) var(--m);
+    margin: auto;
+}
+
+.Profile-Avatar{
+    padding: 0 35%;
+}
+
+.Profile{
+    padding: var(--m) var(--m);
+}
+
+.navTitle{
+    color: var(--white);
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: 0;
+}
+
+.name{
+    font-size: 2.4em;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.subTitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.u-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProfileItem-Container{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.ProfileItem-Container + .ProfileItem-Container{
+    margin-top: var(--m);
+}
+
+
+.ProfileItem-Title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.content{
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.Profile-Name{
+    font-size: 2.4em;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.Profile-Line{
+    border: 1px solid var(--grey);
+    margin-top: var(--m);
+    margin-bottom: var(--m);
+}
+
+.ProfileName{
+    font-size: 2.4em;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.ProfileItem{
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
